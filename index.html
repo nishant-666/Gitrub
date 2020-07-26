@@ -1,0 +1,51 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="https://bootswatch.com/4/litera/bootstrap.min.css">
+  <link rel="stylesheet" href="app.css">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/semantic-ui/2.4.1/semantic.min.css" integrity="sha512-8bHTC73gkZ7rZ7vpqUQThUDhqcNFyYi2xgDgPDHc+GXVGHXq+xPjynxIopALmOPqzo9JZj0k6OqqewdGO3EsrQ==" crossorigin="anonymous" />
+  <title>Gitrub</title>
+</head>
+<body style="background-color: black;">
+  <div class="ui fluid three item menu" style="border-radius: 0px;">
+       
+    <div class="item"><h1 class="ui header" style="color: #f44336;font-family: 'Sacramento', cursive;font-size: 35px;">Gitrub</h1></div>
+   
+  </div>
+  
+  <div class="ui raised very padded text container segment " style="border-radius: 0px;">
+    <div class="col text-center">
+      <div class="container searchContainer">
+        <div class="search"></div>
+      </div>
+    </div>
+    <h2 class="ui centered header" style="font-family: 'Recursive', sans-serif;">An open source Github Client</h2>
+    <p style="text-align: center;font-family: 'Recursive', sans-serif;font-size: 20px;">Search for Github users!</p>
+    <form class="ui form">
+        <div class="field search">
+    <div class="ui left icon input">
+        <input type="text" placeholder="Search users..." id="searchUser">
+        <i class="users icon"></i>
+      </div>
+        </div>
+        <div id="profile"></div>
+        </form>
+        
+        <p style="text-align: center;margin-bottom: -30px;padding:10px">© Nishant || GitRub!</p>
+  </div>
+  
+  
+
+  
+  <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
+  <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.3/umd/popper.min.js" integrity="sha384-vFJXuSJphROIrBnz7yo7oB41mKfc8JzQZiCq4NCceLEaO4IHwicKwpJf9c9IpFgh" crossorigin="anonymous"></script>
+  <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.2/js/bootstrap.min.js" integrity="sha384-alpBpkh1PFOepccYVYDB4do5UnbKysX5WZXm3XxPqe5iKTfUKjNkCk9SaVuEZflJ" crossorigin="anonymous"></script>
+
+  <script src="github.js"></script>
+  <script src="ui.js"></script>
+  <script src="app.js"></script>
+</body>
+</html>
